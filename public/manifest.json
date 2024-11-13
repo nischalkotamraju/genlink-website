@@ -1,6 +1,5 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GenLink",
   "icons": [
     {
       "src": "genlink-logo2.png",
