@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { auth, db } from '../firebase/firebase-config'
 import { updatePassword, reauthenticateWithCredential, EmailAuthProvider } from 'firebase/auth'
-import { useNavigate } from 'react-router-dom'
 import { doc, getDoc, updateDoc, collection, getDocs } from 'firebase/firestore'
 
 const Dashboard = () => {
