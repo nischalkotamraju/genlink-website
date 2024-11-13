@@ -167,7 +167,7 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0e1e4b] to-[#0a1735] px-4 py-8">
+    <div className="min-h-screen bg-[#0e1e4b]">
       <div className="max-w-7xl mx-auto">
         {activeComponent !== 'dashboard' && (
           <button onClick={() => setState(prev => ({ ...prev, activeComponent: 'dashboard' }))} className="mb-6 p-3 text-white rounded-xl font-medium bg-white/10 hover:bg-white/20 transition-all duration-300">
