@@ -25,7 +25,7 @@ const Footer = () => {
               <FaGithub className="h-5 w-5" />
             </a>
             <a
-              href="https://www.instagram.com/whswarriorsaustin/"
+              href="https://www.instagram.com/gen_linkaustin/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
