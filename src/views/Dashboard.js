@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 import { doc, getDoc, updateDoc, collection, getDocs } from 'firebase/firestore'
 
 const Dashboard = () => {
-  const navigate = useNavigate()
   const [state, setState] = useState({
     firstName: '', lastName: '', email: '', activeComponent: 'dashboard', volunteerHours: 0,
     isEditing: false, password: '', originalData: null, volunteerLog: [], bio: '',
@@ -13,7 +12,7 @@ const Dashboard = () => {
   })
 
   const { firstName, lastName, email, activeComponent, volunteerHours, isEditing, password,
-    originalData, volunteerLog, bio, currentPassword, members, events } = state
+    volunteerLog, bio, currentPassword, members, events } = state
 
   const buttonBaseClasses = "w-full py-3 px-6 text-white rounded-lg font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#132657] transition-all duration-300 shadow-lg transform hover:scale-[1.02]"
 

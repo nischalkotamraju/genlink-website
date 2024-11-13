@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useAnimation, useScroll, useTransform } from 'framer-motion'
-import { AcademicCapIcon, HandRaisedIcon, HeartIcon, ComputerDesktopIcon, UserGroupIcon, UserIcon, BookOpenIcon, GlobeAltIcon, SparklesIcon, ChatBubbleLeftRightIcon, RocketLaunchIcon, LightBulbIcon, BoltIcon, FireIcon, StarIcon, HomeIcon, MapPinIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline'
+import { AcademicCapIcon, ComputerDesktopIcon, UserGroupIcon, BookOpenIcon, GlobeAltIcon, SparklesIcon, ChatBubbleLeftRightIcon, RocketLaunchIcon, LightBulbIcon, BoltIcon, FireIcon, StarIcon, MapPinIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline'
 
 const Home = () => {
   const controls = useAnimation()

@@ -1,4 +1,4 @@
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton } from '@headlessui/react'
 import { useState, useEffect } from 'react'
 import { auth, db } from '../firebase/firebase-config'
 import { doc, getDoc } from 'firebase/firestore'
